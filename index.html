@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Calculator</title>
+    <link href="css/styles.css" rel="stylesheet" />
+    <script src="js/main.js" defer></script>
+  </head>
+  <body>
+    <div class="calculator-grid">
+      <div class="output">
+        <div data-previous-operand class="previous-operand"></div>
+        <div data-current-operand class="current-operand">0</div>
+      </div>
+      <button data-all-clear class="span-two">AC</button>
+      <button data-delete class="span-two">←</button>
+      <button data-radic>√</button>
+      <button data-operation="^">x<sup>y</sup></button>
+      <button data-plus-minus class="span-two">±</button>
+      <button data-number>1</button>
+      <button data-number>2</button>
+      <button data-number>3</button>
+      <button data-operation="÷">÷</button>
+      <button data-number>4</button>
+      <button data-number>5</button>
+      <button data-number>6</button>
+      <button data-operation="*">*</button>
+      <button data-number>7</button>
+      <button data-number>8</button>
+      <button data-number>9</button>
+      <button data-operation="+">+</button>
+      <button data-number>0</button>
+      <button data-dot>.</button>
+      <button data-equals>=</button>
+      <button data-operation="-">-</button>
+    </div>
+    <div class="help">
+      <b>Hints</b>
+      <p>
+        1. To calculate root of a number, initially input this number and then
+        press the button <b>√</b>
+      </p>
+      <p>
+        2. To exponentiate, at first input a number, then press the button X<sup
+          >y</sup
+        >
+        and then input a degree. For instance: 2 ^ 4 = 16
+      </p>
+      <button class="help__btn">ОК</button>
+    </div>
+    <div class="show-help">?</div>
+  </body>
+</html>
